@@ -32,7 +32,7 @@ export function useBooks(initialTerm = '') {
 
   // Primeiro carregamento: buscar “populares” com q="*"
   useEffect(() => {
-    loadBooks('*', 1);
+    loadBooks('the', 1);
   }, [loadBooks]);
 
   // Quando o usuário digita ou muda de página
